@@ -32,7 +32,7 @@ spec:
         type: string
       spec: null
       steps:
-      - image: okddemo.azurecr.io/python:latest
+      - image: python:latest
         name: test
         resources: {}
         script: |-
